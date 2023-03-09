@@ -1,0 +1,397 @@
+.rede_sociais a {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.text-nav {
+    color: #24262A;
+}
+
+.icon-coop {
+    position: absolute;
+    left: 33%;
+}
+
+.icon-coop1 {
+    position: absolute;
+    top: 30%;
+    left: 38%;
+}
+
+.seta-conteudo-link {
+    color: white;
+}
+
+.seta-conteudo-link-coop {
+    color: white;
+}
+
+.seta-conteudo-link-coop:hover {
+    color: #0AC775
+}
+
+.seta-conteudo-link:hover {
+    color: #0AC775
+}
+
+
+.seta-conteudo-coop {
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    top: 400%;
+    left: 38%;
+}
+
+.seta-conteudo {
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    top: 460%;
+    left: 38%;
+}
+
+.seta-conteudo-varejo {
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    top: 360%;
+    left: 38%;
+}
+
+.coopimg {
+    background-image: url(/assets/img/eXECUTIVO_1.png);
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.titulo-coop {
+    text-align: center;
+}
+
+.text-titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.text-paragrafo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+.menu-mobile {
+    border-radius: px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.categorias-lateral {
+    font-size: 18;
+}
+
+.categoria-link:hover {
+    cursor: pointer;
+    color: #0AC775;
+}
+
+.coop-header {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+
+}
+
+.icon_mais300 {
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    top: 45%;
+    left: 23%;
+}
+
+.form-contratar {
+    border: rgba(128, 128, 128, 0.26) solid 1px;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.item_form input::placeholder {
+    color: rgba(133, 133, 133, 0.486);
+}
+
+
+.form_contato {
+
+    height: 80%;
+}
+
+.form-contato {
+    position: absolute;
+    top: 13%;
+}
+
+.canais_ {
+    position: absolute;
+    top: 30%;
+}
+
+.canais {
+    height: 550px;
+}
+
+.botao_enviar {
+    background-color: #0AC775;
+    border: #0AC775;
+}
+
+.check_form:checked {
+    background-color: #0AC775;
+    border: #0AC775;
+}
+
+
+.botao_enviar:hover {
+    background-color: #108653;
+}
+
+.politica_contato:hover {
+    color: #108653;
+}
+
+.logo_clientes {
+    width: 170px;
+
+
+}
+
+.botao_contato {
+    position: fixed;
+    bottom: 20%;
+    right: 1px;
+    z-index: 9999;
+    
+}
+
+
+.botao-whatsapp {
+    background-color: #0AC775;
+    border: #0AC775;
+    border-radius: 10%;
+    height: 40px;
+    width: 50px;
+   display: flex;
+
+}
+
+.botao-whatsapp:hover {
+    background-color: #108653;
+    border: #108653;
+    border-radius: 10%;
+}
+
+
+.botao_contato2 {
+    position: fixed;
+    bottom: 15%;
+    right: 1px;
+    z-index: 9999;
+   
+
+}
+
+.botao-whatsapp2 {
+    background-color: #a5ec5e;
+    border: #a5ec5e;
+    border-radius: 10%;
+    height: 40px;
+    width: 50px;
+    display: flex;
+}
+
+.botao-whatsapp2:hover {
+    background-color: #7db348;
+    border: #7db348;
+    border-radius: 10%;
+}
+
+.icone_botao {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.icone_botao2 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+.formulario_contato {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img_form {
+    background-image: url(/assets/img/person-working-with-a-laptop.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.icone_saude {
+    font-size: 104px;
+}
+
+.vc_custom_1479140121828 {
+    padding-top: 132px !important;
+    padding-bottom: 92px !important;
+}
+@media screen and (max-width: 980px) {
+    .img_form {
+        display: none;
+    }
+
+    .form_contato {
+        width: 100%;
+    }
+
+    .formulario_contato {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+   
+}
+
+@media screen and (max-width: 375px) {
+    .slide_desktop {
+        display: none;
+    }
+    .ocultar {
+        display: none;
+    }
+
+    .titulo_slide_mobile {
+        color: white;
+    }
+
+    .butao_slide_mobile {
+        font-family: sans-serif;
+        font-weight: bold;
+        padding: 0.5rem;
+        border-radius: 2px;
+        
+    }
+
+    .titulo_mobile {
+        font-size: 25px;
+    }
+    .titulo_mobile_2 {
+        font-size: 40px;
+    }
+
+    .icone_saude {
+        font-size: 70px;
+    }
+
+    .vc_custom_1479140121828 {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+
+    .t_saude {
+        margin-top: 30px;
+    }
+    .owl-carousel .owl-item {
+        position: relative;
+        min-height: 1px;
+        float: left;
+        left: 7.5rem;
+        -webkit-backface-visibility: hidden;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none
+    }
+}
+
+@media only screen and (max-width: 2500px) and (min-width: 450px)  {
+    .slide_mobile {
+        display: none;
+    }
+    .ocultar {
+        display: none;
+    }
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+    .slide_desktop {
+        display: none;
+    }
+    .ocultar {
+        display: none;
+    }
+
+    .titulo_slide_mobile {
+        color: white;
+    }
+
+    .butao_slide_mobile {
+        font-family: sans-serif;
+        font-weight: bold;
+        padding: 0.5rem;
+        border-radius: 2px;
+        
+    }
+
+    .titulo_mobile {
+        font-size: 25px;
+    }
+    .titulo_mobile_2 {
+        font-size: 30px;
+    }
+
+    .icone_saude {
+        font-size: 70px;
+    }
+
+    .vc_custom_1479140121828 {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+
+    .t_saude {
+        margin-top: 30px;
+    }
+
+    .owl-carousel .owl-item {
+        position: relative;
+        min-height: 1px;
+        float: left;
+        left: 7.5rem;
+        -webkit-backface-visibility: hidden;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none
+    }
+}
+
+.titulo_slide_mobile_coop {
+    color: white;
+    font-weight: 400;
+    font-size: 35px;
+}
