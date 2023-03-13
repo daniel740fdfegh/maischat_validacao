@@ -16377,7 +16377,7 @@ a.read_more {
     font-size: 13px;
     text-decoration: none;
     letter-spacing: 1.1px;
-    background: #0ac775;
+    background: #aab2bd;
     margin-top: 50px;
     padding: 24px 0px;
     border-radius: 15px;
@@ -16388,7 +16388,7 @@ a.read_more {
 
 a.read_more:hover {
     box-shadow: 0px 1px 50px rgba(0, 0, 0, 0.15);
-    background: #404040;
+    background: #333;
 }
 
 .link {
